@@ -1,5 +1,5 @@
 .DS_Store
-Puzzle/
+Sources/AdventOfCode/Puzzle/
 /.build
 /Packages
 /*.xcodeproj

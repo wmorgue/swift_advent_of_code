@@ -10,8 +10,8 @@ let package = Package(
 		.package(url: "https://github.com/apple/swift-algorithms", from: "1.0.0"),
 	],
 	targets: [
-		.executableTarget(name: "AdventOfCode", dependencies: [
-			.product(name: "Algorithms", package: "swift-algorithms"),
-		]),
+		.executableTarget(name: "AdventOfCode",
+		                  dependencies: [.product(name: "Algorithms", package: "swift-algorithms")],
+		                  resources: [.copy("Puzzle/")]),
 	]
 )
