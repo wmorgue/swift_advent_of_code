@@ -12,6 +12,6 @@ let package = Package(
 	targets: [
 		.executableTarget(name: "AdventOfCode",
 		                  dependencies: [.product(name: "Algorithms", package: "swift-algorithms")],
-		                  resources: [.copy("Puzzle/")]),
+		                  resources: [.process("Puzzle/")]),
 	]
 )
