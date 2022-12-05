@@ -1,6 +1,6 @@
 import Foundation
 
-public func dayTwo() {
+func dayTwo() {
 	var moves: [String: [Int]] {
 		[
 			"A X": [1 + 3, 3 + 0],
